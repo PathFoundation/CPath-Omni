@@ -28,7 +28,7 @@ As CPath-CLIP's vision encoder is partially initialized from Virchow2. Before us
 2. **Download the original Virchow2 weights**
 3. **Use our provided delta weights** to reconstruct CPath-CLIP
 
-We provide delta weights (the difference between fine-tuned CPath-CLIP Virchow2 components and original Virchow2) and [reconstruction code]() for your convenience.
+We provide delta weights (the difference between fine-tuned CPath-CLIP Virchow2 components and original Virchow2) and [reconstruction code](https://github.com/PathFoundation/CPath-Omni/blob/main/cpath_clip/reconstruct_cpath_clip.py) for your convenience.
 
 ```bash
 python reconstruct_cpath_clip.py \
@@ -40,7 +40,7 @@ python reconstruct_cpath_clip.py \
 
 
 
-The inference example is provided below, more testing examples can be find in [link]():
+The inference example is provided below, more testing examples can be find in [link](https://github.com/PathFoundation/CPath-Omni/tree/main/cpath_clip):
 
 ```python
 import os
